@@ -1,0 +1,91 @@
+.profileCard {
+  width: 280px;
+  overflow: hidden;
+  border-radius: 24px;
+  background: white;
+  color: #0f223a;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.profileHeader {
+  height: 58px;
+  padding: 18px 24px;
+  background: #061827;
+  border-bottom-right-radius: 70px;
+  color: white;
+  letter-spacing: 4px;
+  border-bottom: 8px solid #f5f6f7;
+}
+
+.profileHeader span {
+  font-size: 12px;
+}
+
+.profileBody {
+  padding: 10px 25px 6px;
+  text-align: center;
+}
+
+.profileImage {
+  display: block;
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  object-fit: cover;
+  object-position: top;
+  cursor: default;
+  background-color: hsl(0, 0%, 90%);
+  user-select: none;
+}
+
+.profileBody h2 {
+  margin-top: 8px;
+  font-size: 28px;
+}
+
+.profileRole {
+  margin-top: 4px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.profileDetails {
+  margin-top: 18px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.profileDetails p {
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.profileFooter {
+  height: 38px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+.profileFooterBlue,
+.profileFooterDark {
+  position: absolute;
+  bottom: -18px;
+  height: 55px;
+  transform: skewX(-42deg);
+}
+
+.profileFooterBlue {
+  left: -20px;
+  width: 120px;
+  background: #315fca;
+}
+
+.profileFooterDark {
+  right: -35px;
+  width: 215px;
+  background: #061827;
+}

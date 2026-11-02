@@ -1,0 +1,28 @@
+.parent {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.jobs,
+.profilesSection {
+  width: 100%;
+  color: white;
+}
+
+.jobs h2,
+.profilesSection h2 {
+  margin-bottom: 20px;
+}
+
+.jobsList,
+.profiles {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
+  gap: 30px;
+}
